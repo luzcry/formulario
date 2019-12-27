@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tema formularios</title>
+</head>
+<!-- agregarás un input donde el usuario ingresará su correo electrónico, este campo será obligatorio -->
+<body>
+    <form>
+        <label for="email-example">correo electronico</label>
+        <input type ="email" name="" id="email-example"
+        placeholder = "Email"
+        name="email-example"
+        required
+        />
+    </form>
+    <!-- También agrega la etiqueta label para asociar el input que acabas de crear -->
+<form>
+    <label for="password-example">Password</label>
+    <input type="password" name="password-example" id="password-example"
+    placeholder="Password"
+    name="password-example"
+    required>
+</form>
+<!-- crearás un select para que el usuario pueda elegir un valor de la lista desplegable -->
+<select name="select-example">
+   <option value="value1">primera opcion</option>
+   <option value="value2">segunda opcion</option>
+   <option value="value3">tercera opcion</option>
+</select>
+<!-- También agrega un radiobutton donde el usuario solo puede escoger una opción entre las distintas opciones relacionadas que se le presentan. -->
+<label>
+    <input type="radio" name="gender" value="female">Mujer
+</label>
+<label>
+    <input type="radio" name="gender" value="male">Hombre
+</label>
+<input type="radio" name="gender" value="no-gender">No especificado
+</label>
+<!--Y adicionarás un checkbox para los términos y condiciones. -->
+<label>
+    <input type="checkbox" name="conditions" value="accept-conditions" checked />
+    Acepto los términos y condiciones
+</label>
+<!--Por último pondrás un botón de enviar. -->
+<button type="submit">Enviar</button>
+
+</body>
+
+</html>
